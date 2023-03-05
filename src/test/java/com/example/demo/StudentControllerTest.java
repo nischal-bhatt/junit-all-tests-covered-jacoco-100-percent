@@ -44,4 +44,11 @@ public class StudentControllerTest {
         assertEquals("hey",students1.get(0).getName());
     }
 
+    @Test
+    void tete()
+    {
+        String r  =studentController.hihi();
+        assertEquals("hehe",r);
+    }
+
 }

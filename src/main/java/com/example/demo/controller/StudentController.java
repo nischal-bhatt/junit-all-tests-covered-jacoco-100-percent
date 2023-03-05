@@ -22,4 +22,7 @@ public class StudentController {
     {
         return studentService.getAllStudents();
     }
+
+    public String hihi() {return "hehe";}
+
 }
